@@ -1,0 +1,121 @@
+body {
+  background-color: #0D192B;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit';
+}
+
+span {
+  color:white;
+}
+
+span:hover {
+  color:Cyan;
+}
+
+hr {
+  color:white;
+}
+
+.container {
+  background-color: #14253D;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  margin: 150px auto;
+  box-shadow: 15px 0 5px 0 rgba(0,0,0,0.07),
+              0 25px 0 35px rgba(0,0,0,0.05),
+              -15px 0 5px 0 rgba(0,0,0,0.07),
+              0 25px 5px 10px rgba(0,0,0,0.07);
+}
+
+.equilibrium-img {
+  border-radius: 15px;
+  width: 100%;
+  position: relative;
+
+}
+
+.img-eye{
+  position: inherit;
+  opacity: 1;
+  z-index: 10;
+}
+.div-img-eye {
+  position: absolute;
+  width: 260px;
+  height: 260px;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  border-radius: 15px;
+  top: 170px;
+}
+
+.div-img-eye:hover {
+  opacity: 0.7;
+}
+
+.card-title {
+  margin-top: 20px;
+  color:white;
+  font-weight: 500;
+  font-size: 1.15rem;
+  text-align: justify;
+  text-justify: distribute;
+}
+
+.card-title:hover {
+  color:Cyan;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color:#8BACDA;
+  color:hsl(215, 51%, 70%);
+  margin-top: 15px;
+}
+
+.secondary-text {
+  display: inline-block;
+  margin: 2px 0 0 3px;
+  font-size: 0.85rem;
+  color:#8BACDA;
+  color:hsl(215, 51%, 70%);
+}
+
+.eth {
+  color: Cyan;
+  font-size: 0.80rem;
+  font-weight: 500;
+}
+
+.days {
+  position: relative;
+  top:1px;
+  font-size: 0.80rem;
+}
+
+.clock-img {
+  margin-left: 90px;
+}
+
+.avatar-img {
+  width: 11%;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.attribution a {
+  color: #3E52A3;
+  color: hsl(228, 45%, 44%);
+}
